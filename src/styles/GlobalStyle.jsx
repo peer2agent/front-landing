@@ -1,10 +1,10 @@
 import { createGlobalStyle } from "styled-components";
-import { reset } from "reset.js";
+import resetStyles from "./reset";
 
 export const GlobalStyle = createGlobalStyle`
 * {
     box-sizing: border-box;
 }
 
-${reset}
+${resetStyles}
 `;

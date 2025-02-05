@@ -11,3 +11,5 @@ export const darkTheme = {
             "linear-gradient(90deg, #61FF31 0%, #70D27F 38.02%, #5C24FF 75.83%, #56D94F 100%)",
     },
 };
+
+export const lightTheme = {};
