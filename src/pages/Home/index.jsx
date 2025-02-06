@@ -21,6 +21,9 @@ export default function Home() {
 
             <Partners />
 
+            <Divider />
+            <Divider />
+
             <Title>Our features</Title>
 
             <Info
