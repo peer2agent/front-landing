@@ -3,5 +3,12 @@ import styled from "styled-components";
 export const Container = styled.div`
     width: 100%;
 
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 100px 20%;
+
+    background: ${({ theme }) => theme.colors.primary};
 `;
