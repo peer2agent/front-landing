@@ -89,19 +89,19 @@ export const BlueBlur = styled.div`
 
     position: absolute;
     top: 20%;
-    left: 28%;
+    left: 15%;
 
     animation: moveBlue 2s linear forwards;
 
     @keyframes moveBlue {
         0% {
-            left: 28%;
+            left: 15%;
         }
         50% {
             left: 60%;
         }
         100% {
-            left: 28%;
+            left: 15%;
         }
     }
 `;
@@ -117,19 +117,19 @@ export const GreenBlur = styled.div`
 
     position: absolute;
     top: 20%;
-    right: 28%;
+    right: 15%;
 
     animation: moveGreen 2s linear forwards;
 
     @keyframes moveGreen {
         0% {
-            right: 28%;
+            right: 15%;
         }
         50% {
             right: 60%;
         }
         100% {
-            right: 28%;
+            right: 15%;
         }
     }
 `;
