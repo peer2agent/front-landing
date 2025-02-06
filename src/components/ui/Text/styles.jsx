@@ -7,4 +7,5 @@ export const StyledText = styled.p`
     font-weight: thin;
 
     line-height: 1.6rem;
+    text-align: ${({ align }) => align};
 `;
