@@ -14,13 +14,18 @@ export const Container = styled.header`
 
     padding: 0 5%;
 
-    background-color: ${({ theme }) => theme.colors.primary};
+    background-color: ${({ theme }) =>
+        theme.colors
+            .primary}CC; /* Adds transparency using hex (CC = 80% opacity) */
+    backdrop-filter: blur(10px); /* Blurs the background behind the header */
+    -webkit-backdrop-filter: blur(10px); /* Safari compatibility */
 
     img {
         width: 150px;
-
         object-fit: contain;
     }
+
+    z-index: 1;
 `;
 
 export const CommandsContainer = styled.div`
