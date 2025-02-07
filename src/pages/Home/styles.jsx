@@ -9,6 +9,7 @@ export const Container = styled.div`
     justify-content: center;
 
     padding: 100px 20%;
+    padding-bottom: 50px;
 
     background: ${({ theme }) => theme.colors.primary};
 `;

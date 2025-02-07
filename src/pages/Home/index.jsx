@@ -5,6 +5,7 @@ import Main from "../../components/Main";
 import Partners from "../../components/Partners";
 import Info from "../../components/Info";
 import Faq from "../../components/FAQ";
+import Footer from "../../components/Footer";
 
 import Title from "../../components/ui/Title";
 import Divider from "../../components/ui/Divider";
@@ -47,6 +48,12 @@ export default function Home() {
             <Title>FAQ's</Title>
 
             <Faq />
+
+            <Divider />
+            <Divider />
+            <Divider />
+
+            <Footer />
         </Container>
     );
 }
