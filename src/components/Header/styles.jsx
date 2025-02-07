@@ -26,6 +26,10 @@ export const Container = styled.header`
     }
 
     z-index: 1;
+
+    @media screen and (max-width: 768px) {
+        justify-content: center;
+    }
 `;
 
 export const CommandsContainer = styled.div`
@@ -58,6 +62,10 @@ export const CommandsContainer = styled.div`
 
         background-color: rgba(255, 255, 255, 0.2);
     }
+
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const SocialContainer = styled.div`
@@ -76,5 +84,9 @@ export const SocialContainer = styled.div`
 
     svg:hover {
         transform: scale(1.1);
+    }
+
+    @media screen and (max-width: 768px) {
+        display: none;
     }
 `;

@@ -7,4 +7,8 @@ export const StyledTitle = styled.h1`
     font-weight: bold;
 
     margin-bottom: 2rem;
+
+    @media (max-width: 768px) {
+        font-size: ${({ theme }) => theme.font.sizes.medium};
+    }
 `;

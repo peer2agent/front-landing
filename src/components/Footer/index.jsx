@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, Menu, ImageAndAbout } from "./styles";
 
 import Text from "../ui/Text";
 
@@ -7,7 +7,7 @@ import logo from "../../assets/peer2agent_logo.png";
 export default function Footer() {
     return (
         <Container>
-            <div>
+            <ImageAndAbout>
                 <img src={logo} alt="Peer2Agent" />
 
                 <Text textSizing="extraSmall">
@@ -18,25 +18,27 @@ export default function Footer() {
                     with their finances, making financial success attainable for
                     all.
                 </Text>
-            </div>
+            </ImageAndAbout>
 
-            <div>
-                <h4>Quick menu</h4>
+            <Menu>
+                <div>
+                    <h4>Quick menu</h4>
 
-                <h5>About</h5>
-                <h5>Pricing</h5>
-                <h5>Blog</h5>
-                <h5>Help</h5>
-            </div>
+                    <h5>About</h5>
+                    <h5>Pricing</h5>
+                    <h5>Blog</h5>
+                    <h5>Help</h5>
+                </div>
 
-            <div>
-                <h4> Resources</h4>
+                <div>
+                    <h4> Resources</h4>
 
-                <h5>Community</h5>
-                <h5>Newsletter</h5>
-                <h5>Blog</h5>
-                <h5>API</h5>
-            </div>
+                    <h5>Community</h5>
+                    <h5>Newsletter</h5>
+                    <h5>Blog</h5>
+                    <h5>API</h5>
+                </div>
+            </Menu>
         </Container>
     );
 }

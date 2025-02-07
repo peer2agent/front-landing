@@ -8,4 +8,8 @@ export const StyledText = styled.p`
 
     line-height: 1.6rem;
     text-align: ${({ align }) => align};
+
+    @media (min-width: 768px) {
+        font-size: ${({ theme }) => theme.font.sizes.extraSmall};
+    }
 `;

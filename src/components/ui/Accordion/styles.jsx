@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 60%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 `;
 
 export const AccordionQuestion = styled.div`
@@ -30,6 +34,12 @@ export const AccordionQuestion = styled.div`
     & + & {
         margin-top: 10px;
     }
+
+    @media (max-width: 768px) {
+        h3 {
+            font-size: ${({ theme }) => theme.font.sizes.small};
+        }
+    }
 `;
 
 export const AccordionAnswer = styled.div`
@@ -39,8 +49,14 @@ export const AccordionAnswer = styled.div`
 
     h3 {
         font-family: ${({ theme }) => theme.font.secondary};
-        font-size: ${({ theme }) => theme.font.sizes.small};
+        font-size: ${({ theme }) => theme.font.sizes.medium};
         color: ${({ theme }) => theme.font.colors.primary};
         line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+        h3 {
+            font-size: ${({ theme }) => theme.font.sizes.small};
+        }
     }
 `;

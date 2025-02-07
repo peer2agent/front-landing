@@ -12,4 +12,8 @@ export const Container = styled.div`
     padding-bottom: 50px;
 
     background: ${({ theme }) => theme.colors.primary};
+
+    @media screen and (max-width: 768px) {
+        padding: 50px 10%;
+    }
 `;

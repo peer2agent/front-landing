@@ -14,8 +14,8 @@ export default function Info({
             <img src={imagePath} alt={title} />
 
             <div>
-                <Subtitle>{title}</Subtitle>
-                <Text>{description}</Text>
+                <Subtitle align={reverse ? "left" : "right"}>{title}</Subtitle>
+                <Text align={reverse ? "left" : "right"}>{description}</Text>
             </div>
         </Container>
     );

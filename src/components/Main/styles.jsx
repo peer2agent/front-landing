@@ -6,6 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     padding: 4rem 0;
     background-color: ${({ theme }) => theme.colors.primary};
     position: relative;
@@ -13,8 +14,10 @@ export const Container = styled.div`
     h1 {
         font-family: ${({ theme }) => theme.font.primary};
         color: ${({ theme }) => theme.font.colors.primary};
-        font-size: ${({ theme }) => theme.font.sizes.extralarge};
+        font-size: ${({ theme }) => theme.font.sizes.extraLarge};
         margin: 0;
+
+        text-align: center;
     }
 
     p {
@@ -24,14 +27,26 @@ export const Container = styled.div`
         color: ${({ theme }) => theme.font.colors.primary};
         font-size: ${({ theme }) => theme.font.sizes.small};
         line-height: 1.5rem;
+
         text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: ${({ theme }) => theme.font.sizes.large};
+        }
+
+        p {
+            width: 90%;
+            font-size: ${({ theme }) => theme.font.sizes.extraSmall};
+        }
     }
 `;
 
 export const GradientText = styled.h1`
     font-family: ${({ theme }) => theme.font.primary};
     color: ${({ theme }) => theme.font.colors.primary};
-    font-size: ${({ theme }) => theme.font.sizes.extralarge};
+    font-size: ${({ theme }) => theme.font.sizes.extraLarge};
     line-height: 1.8;
 
     margin: 0;
@@ -40,6 +55,13 @@ export const GradientText = styled.h1`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    text-align: center;
+
+    @media (max-width: 768px) {
+        font-size: ${({ theme }) => theme.font.sizes.large};
+        line-height: 1.4;
+    }
 `;
 
 export const ButtonsContainer = styled.div`

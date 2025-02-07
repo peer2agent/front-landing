@@ -12,4 +12,10 @@ export const Container = styled.div`
 
         object-fit: contain;
     }
+
+    @media (max-width: 768px) {
+        > img {
+            display: none;
+        }
+    }
 `;

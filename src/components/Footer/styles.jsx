@@ -13,28 +13,22 @@ export const Container = styled.footer`
 
     border-bottom: 1px solid #fff;
 
-    > div {
-        width: 20%;
-        height: 100%;
+    padding-bottom: 30px;
 
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
+    @media (max-width: 768px) {
         flex-direction: column;
-
-        margin-bottom: 1rem;
+        align-items: center;
     }
+`;
 
-    > div:first-child {
-        width: 50%;
-    }
+export const Menu = styled.div`
+    width: 40%;
 
-    img {
-        width: 30%;
-        margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 
-        object-fit: contain;
-    }
+    text-align: center;
 
     h4 {
         font-size: ${({ theme }) => theme.font.sizes.small};
@@ -44,11 +38,49 @@ export const Container = styled.footer`
 
     h5 {
         font-size: ${({ theme }) => theme.font.sizes.extraSmall};
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.6rem;
 
         &:hover {
             cursor: pointer;
             text-decoration: underline;
         }
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+        margin-top: 1.8rem;
+
+        div {
+            width: 100%;
+        }
+    }
+`;
+
+export const ImageAndAbout = styled.div`
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+
+    img {
+        width: 40%;
+        margin-bottom: 1rem;
+
+        object-fit: contain;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+        align-items: center;
+
+        img {
+            width: 30%;
+        }
+
+        padding-bottom: 1.8rem;
+        border-bottom: 1px solid #fff;
     }
 `;

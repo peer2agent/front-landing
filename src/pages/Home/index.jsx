@@ -28,7 +28,7 @@ export default function Home() {
             <Title>Our features</Title>
 
             <Info
-                imagePath={chart}
+                imagePath={portfolio}
                 title="Automated Wallet Tracking"
                 description="Seamlessly connect your Solana wallet and let our platform replicate your trades in real time. Never miss a profitable opportunity—our AI ensures that every winning move is copied instantly."
                 reverse={true}
@@ -38,7 +38,7 @@ export default function Home() {
             <Divider />
 
             <Info
-                imagePath={portfolio}
+                imagePath={chart}
                 title="Trader & Strategy Marketplace"
                 description="Find expert traders with proven track records or showcase your own winning approach. Earn fees when others follow you, or easily replicate top performers to boost your own returns."
             />

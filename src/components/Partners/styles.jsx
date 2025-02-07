@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width: 100%;
-    height: 80px;
 
     margin: 50px 0;
 
@@ -25,5 +24,16 @@ export const Container = styled.div`
         background-color: white;
 
         filter: invert(100%) grayscale(100%) brightness(100%);
+    }
+
+    @media (max-width: 768px) {
+        > div {
+            gap: 50px;
+        }
+
+        img {
+            width: 80px;
+            height: 40px;
+        }
     }
 `;

@@ -8,4 +8,8 @@ export const StyledSubtitle = styled.h2`
     margin-bottom: 1rem;
 
     text-align: ${({ align }) => align};
+
+    @media (max-width: 768px) {
+        font-size: ${({ theme }) => theme.font.sizes.medium};
+    }
 `;
