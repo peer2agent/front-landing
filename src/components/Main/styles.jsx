@@ -18,7 +18,7 @@ export const Container = styled.div`
     }
 
     p {
-        width: 29%;
+        width: 50%;
         margin: 1.5rem 0;
         font-family: ${({ theme }) => theme.font.secondary};
         color: ${({ theme }) => theme.font.colors.primary};
@@ -51,14 +51,20 @@ export const ButtonsContainer = styled.div`
 export const Button = styled.div`
     width: 150px;
     height: 50px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     font-family: ${({ theme }) => theme.font.primary};
     color: ${({ theme }) => theme.font.colors.primary};
     font-size: ${({ theme }) => theme.font.sizes.small};
-    border-radius: 15px;
+
+    border-radius: 30px;
+    border: 2px solid #fff;
+
     transition: transform 0.2s ease-out;
+
     cursor: pointer;
 
     &:hover {
