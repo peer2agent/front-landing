@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0;
+    padding: 4rem 0;
     background-color: ${({ theme }) => theme.colors.primary};
     position: relative;
 
@@ -18,7 +18,7 @@ export const Container = styled.div`
     }
 
     p {
-        width: 50%;
+        width: 70%;
         margin: 1.5rem 0;
         font-family: ${({ theme }) => theme.font.secondary};
         color: ${({ theme }) => theme.font.colors.primary};
@@ -32,7 +32,10 @@ export const GradientText = styled.h1`
     font-family: ${({ theme }) => theme.font.primary};
     color: ${({ theme }) => theme.font.colors.primary};
     font-size: ${({ theme }) => theme.font.sizes.extralarge};
+    line-height: 1.8;
+
     margin: 0;
+
     background: ${({ theme }) => theme.gradients.greenBlueGreen};
     background-clip: text;
     -webkit-background-clip: text;
@@ -85,8 +88,8 @@ export const BlurContainer = styled.div`
 `;
 
 export const BlueBlur = styled.div`
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: ${({ theme }) => theme.colors.blue};
 
     border-radius: 50%;
@@ -113,8 +116,8 @@ export const BlueBlur = styled.div`
 `;
 
 export const GreenBlur = styled.div`
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background: ${({ theme }) => theme.colors.green};
 
     border-radius: 50%;

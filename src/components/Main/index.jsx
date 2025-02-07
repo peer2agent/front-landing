@@ -11,14 +11,15 @@ import {
 export default function Main() {
     return (
         <Container>
-            <GradientText>A Fast Blockchain.</GradientText>
+            <h1>Multiply Your Earnings in an</h1>
             <br />
-            <h1>Scalable AI.</h1>
+            <GradientText>AI Agents Powered DeFi Ecosystem</GradientText>
 
             <p>
-                Our technology performing fast blockchain (120K TPS) and it has
-                guaranteed AI-based data security. Proof of Stake, its consensus
-                algorithm enables unlimited speeds.
+                Experience next‑level decentralized investing with powerful AI
+                Agents on the Solana blockchain. Harness real‑time signals to
+                replicate winning strategies, stake tokens for advanced
+                insights, and take your DeFi trading to unprecedented heights.
             </p>
 
             <ButtonsContainer>

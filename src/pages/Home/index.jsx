@@ -29,8 +29,8 @@ export default function Home() {
 
             <Info
                 imagePath={chart}
-                title="Investment-Like Expense Tracking"
-                description="Easily monitor your spending habits with detailed categorization and analysis, empowering you to make informed financial decisions and stay within your budget ."
+                title="Automated Wallet Tracking"
+                description="Seamlessly connect your Solana wallet and let our platform replicate your trades in real time. Never miss a profitable opportunity—our AI ensures that every winning move is copied instantly."
                 reverse={true}
             />
 
@@ -39,8 +39,37 @@ export default function Home() {
 
             <Info
                 imagePath={portfolio}
-                title="Enjoy risk free investments!"
-                description="Our guiding principle is simple: We do what's best for you. We prioritize your financial well-being above all else. With our unwavering commitment to your success, trust FinTrack to be your steadfast partner on your journey towards financial empowerment ."
+                title="Trader & Strategy Marketplace"
+                description="Find expert traders with proven track records or showcase your own winning approach. Earn fees when others follow you, or easily replicate top performers to boost your own returns."
+            />
+
+            <Divider />
+            <Divider />
+
+            <Info
+                imagePath={portfolio}
+                title="AI‑Powered Social Agents"
+                description="Harness the power of artificial intelligence to analyze social signals, market trends, and sentiment data. Make smarter, faster decisions backed by real‑time insights."
+                reverse={true}
+            />
+
+            <Divider />
+            <Divider />
+
+            <Info
+                imagePath={portfolio}
+                title="Stake with $P2A"
+                description="Fuel the ecosystem with our native $P2A token. Stake to unlock premium AI features, receive exclusive benefits, and contribute to a sustainable, high‑speed trading environment."
+            />
+
+            <Divider />
+            <Divider />
+
+            <Info
+                imagePath={portfolio}
+                title="Sustainable Ecosystem for All"
+                description="Our platform rewards both Traders and Trackers—everyone gains from a decentralized, collaborative marketplace. With secure on‑chain transactions, transparency and trust are guaranteed."
+                reverse={true}
             />
 
             <Divider />

@@ -12,6 +12,7 @@ export const AccordionQuestion = styled.div`
     justify-content: space-between;
 
     padding-right: 10px;
+    padding-bottom: 15px;
 
     border-bottom: 1px solid #fff;
 
@@ -19,7 +20,7 @@ export const AccordionQuestion = styled.div`
         font-family: ${({ theme }) => theme.font.primary};
         font-size: ${({ theme }) => theme.font.sizes.medium};
         color: ${({ theme }) => theme.font.colors.primary};
-        line-height: 1.8;
+        line-height: 1.2;
     }
 
     svg {

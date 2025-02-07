@@ -6,27 +6,26 @@ import { Container, AccordionQuestion, AccordionAnswer } from "./styles";
 export default function Accordion() {
     const questions = [
         {
-            question: "What is FinTrack?",
-            answer: "FinTrack is an expense tracking app that helps you monitor your spending habits with detailed categorization and analysis, empowering you to make informed financial decisions and stay within your budget.",
+            question: "How do I become a Trader on Peer2Agent?",
+            answer: "Simply connect your Solana wallet and enable “Trader Mode.” Our system automatically streams your trades for Trackers to follow. Each time someone replicates your strategy, you earn fees in SOL—transforming your expertise into a consistent revenue stream.",
         },
         {
-            question: "How does FinTrack work?",
-            answer: "FinTrack works by allowing you to input your expenses and categorize them. You can then view detailed analysis of your spending habits and make informed financial decisions.",
+            question: "Are my funds safe on Peer2Agent?",
+            answer: "Absolutely. We leverage Solana’s high‑throughput and secure blockchain technology alongside robust encryption protocols. Your wallet keys remain yours alone, and all transactions are executed on‑chain for maximum transparency and security.",
         },
         {
-            question: "Is FinTrack free?",
-            answer: "Yes, FinTrack is free to use.",
+            question: "What fees do Trackers pay?",
+            answer: "Trackers pay a small fee in SOL to replicate real‑time trades from their chosen Trader. A portion of that fee goes directly to the Trader, incentivizing top‑tier performance and accurate signals.",
         },
         {
-            question: "How do I get started with FinTrack?",
-            answer: "You can get started with FinTrack by signing up for an account and inputting your expenses.",
+            question: "Is $P2A token required to use the platform?",
+            answer: "You can start as a Trader or Tracker without holding $P2A. However, staking $P2A unlocks advanced AI features, premium analytics, and reduced fees, giving you a competitive edge in the marketplace.",
         },
         {
-            question: "How can I contact FinTrack?",
-            answer: "You can contact FinTrack by emailing us at",
+            question: "Can I link multiple Solana wallets to my account?",
+            answer: "Yes! Our platform supports multiple wallets, allowing you to monitor various portfolios in one place. Add each wallet address to your profile, and our AI seamlessly tracks and replicates trades across all of them.",
         },
     ];
-
     const [openIndex, setOpenIndex] = useState(null);
 
     function toggleAccordion(index) {

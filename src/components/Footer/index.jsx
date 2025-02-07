@@ -11,12 +11,12 @@ export default function Footer() {
                 <img src={logo} alt="Peer2Agent" />
 
                 <Text textSizing="extraSmall">
-                    We strive to be the go-to platform for comprehensive and
+                    We strive to be the go‑to platform for comprehensive and
                     accessible financial management, helping our users achieve
                     their goals and secure their futures. Through innovation and
                     dedication, we aim to revolutionize the way people interact
                     with their finances, making financial success attainable for
-                    all."
+                    all.
                 </Text>
             </div>
 

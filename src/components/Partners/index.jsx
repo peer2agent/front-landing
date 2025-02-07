@@ -10,9 +10,7 @@ import helius from "../../assets/helius.png";
 export default function Partners() {
     return (
         <Container>
-            <Text align="center">
-                Over 40k companies have collaborated with us
-            </Text>
+            <Text align="center">Powered by</Text>
 
             <Divider />
 
