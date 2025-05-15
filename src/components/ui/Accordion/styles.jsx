@@ -22,7 +22,7 @@ export const AccordionQuestion = styled.div`
 
     h3 {
         font-family: ${({ theme }) => theme.font.primary};
-        font-size: ${({ theme }) => theme.font.sizes.medium};
+        font-size: ${({ theme }) => theme.font.sizes.small};
         color: ${({ theme }) => theme.font.colors.primary};
         line-height: 1.2;
     }
@@ -34,12 +34,6 @@ export const AccordionQuestion = styled.div`
     & + & {
         margin-top: 10px;
     }
-
-    @media (max-width: 768px) {
-        h3 {
-            font-size: ${({ theme }) => theme.font.sizes.small};
-        }
-    }
 `;
 
 export const AccordionAnswer = styled.div`
@@ -47,9 +41,9 @@ export const AccordionAnswer = styled.div`
 
     padding: 10px 0;
 
-    h3 {
+    h4 {
         font-family: ${({ theme }) => theme.font.secondary};
-        font-size: ${({ theme }) => theme.font.sizes.medium};
+        font-size: ${({ theme }) => theme.font.sizes.extrasmall};
         color: ${({ theme }) => theme.font.colors.primary};
         line-height: 1.6;
     }

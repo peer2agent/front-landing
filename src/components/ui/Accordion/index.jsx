@@ -46,7 +46,7 @@ export default function Accordion() {
                     </AccordionQuestion>
                     {openIndex === index && (
                         <AccordionAnswer>
-                            <h3>{question.answer}</h3>
+                            <h4>{question.answer}</h4>
                         </AccordionAnswer>
                     )}
                 </>
