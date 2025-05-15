@@ -1,7 +1,7 @@
-import { FaGithub, FaReddit } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaXTwitter, FaDiscord } from "react-icons/fa6";
 
-import { Container, CommandsContainer, SocialContainer } from "./styles";
+import { Container, CommandsContainer, SocialContainer, SocialLink, Tooltip } from "./styles";
 
 import logo from "../../assets/peer2agent_logo.png";
 
@@ -18,10 +18,17 @@ export default function Header() {
             </CommandsContainer>
 
             <SocialContainer>
-                <FaGithub size={25} color="#fff" />
-                <FaXTwitter size={25} color="#fff" />
-                <FaReddit size={25} color="#fff" />
-                <FaDiscord size={25} color="#fff" />
+                <SocialLink href="https://github.com/peer2agent" target="_blank" rel="noopener noreferrer">
+                    <FaGithub size={25} color="#fff" />
+                </SocialLink>
+                <Tooltip>
+                    <FaXTwitter size={25} color="#fff" />
+                    <span>Coming soon</span>
+                </Tooltip>
+                <Tooltip>
+                    <FaDiscord size={25} color="#fff" />
+                    <span>Coming soon</span>
+                </Tooltip>
             </SocialContainer>
         </Container>
     );
