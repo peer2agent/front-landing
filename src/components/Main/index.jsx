@@ -6,6 +6,7 @@ import {
     BlurContainer,
     BlueBlur,
     GreenBlur,
+    StyledLink,
 } from "./styles";
 
 export default function Main() {
@@ -23,7 +24,9 @@ export default function Main() {
             </p>
 
             <ButtonsContainer>
-                <Button>Whitepaper</Button>
+                <StyledLink href="https://noymaxx.gitbook.io/peer2agent/" target="_blank" rel="noopener noreferrer">
+                    <Button>Documentation</Button>
+                </StyledLink>
                 <Button>Get Started</Button>
             </ButtonsContainer>
 

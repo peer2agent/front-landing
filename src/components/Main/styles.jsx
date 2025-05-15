@@ -97,6 +97,11 @@ export const Button = styled.div`
     }
 `;
 
+export const StyledLink = styled.a`
+    text-decoration: none;
+    color: inherit;
+`;
+
 export const BlurContainer = styled.div`
     width: 100%;
     height: 100%;

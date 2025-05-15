@@ -44,27 +44,26 @@ export const CommandsContainer = styled.div`
     color: ${({ theme }) => theme.font.colors.primary};
     size: ${({ theme }) => theme.font.sizes.small};
 
-    div {
-        width: 22%;
-        height: 50%;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        border-radius: 10px;
-
-        transition: all 0.1s ease-out;
-    }
-
-    div:hover {
-        cursor: pointer;
-
-        background-color: rgba(255, 255, 255, 0.2);
-    }
-
     @media screen and (max-width: 768px) {
         display: none;
+    }
+`;
+
+export const NavLink = styled.div`
+    width: 22%;
+    height: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 0.1s ease-out;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.2);
     }
 `;
 
